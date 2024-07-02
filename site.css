@@ -1,0 +1,131 @@
+html{
+    font-size: 15px;
+    font-family: ubuntu, sans-serif;
+    margin: 0px;
+    background-color: #f1faee;
+}
+
+
+nav{
+    background-color: #1d3557;
+    padding: 10px;
+    border: .5px solid #1d3557;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0px;
+    display: block;
+    height: 70px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+nav input{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25px;
+    padding: 20px;
+}
+.logo{
+    width: 50px;
+    height: 40px;
+    border: 1.5px solid #1d3557 ;
+    border-radius: 500px;
+    display: inline;
+    position: relative;
+    top: 6px;
+    left: 5px;
+}
+
+a{
+    text-decoration: none;
+    position: relative;
+    bottom: 7px;
+    left: 50px;
+    margin: 8px;
+    color: white;
+}
+
+a:hover{
+    color: #e63946;
+}
+
+section > form{
+    position: relative;
+    left: 1200px;
+    bottom: 32px;
+}
+
+.srchlabel{
+    color: white;
+}
+
+#search{
+    margin: 5px;
+    padding: 3px;
+}
+
+#searchbutton{
+    padding: 5px;
+    background-color: #e63946;
+    color: white;
+    border: #1d3557 solid 1px;
+}
+
+#searchbutton:hover{
+    background-color: #e02836;
+
+}
+
+main{
+    position: relative;
+    left: 600px;
+    top: 100px;
+    width: 400px;
+    height: 450px;
+    background-color: #1d3557;
+    padding: 10px;
+    color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.frstnme{
+    display: block;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+main input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0.1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #edede9;
+}
+
+.headline{
+    color: white;
+}
+
+main button{
+    width: 250px;
+    height: 40px;
+    position: relative;
+    left: 70px;
+    top: 10px;
+    color: white;
+    background-color: #e63946;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+main button:hover{
+    background-color: #e02836;
+}
+
+i{
+    position: relative;
+    left: 172px;
+    top: 18px;
+    margin: 2px;
+}
